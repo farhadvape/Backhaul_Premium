@@ -182,7 +182,7 @@ EOF
     echo -e "${NC}${GREEN}"
     echo -e "Script Version: ${YELLOW}${SCRIPT_VERSION}${GREEN}"
     if [[ -f "${config_dir}/backhaul_premium" ]]; then
-    	echo -e "Core Version: ${YELLOW}$($config_dir/backhaul_premium -v)"
+    	echo -e "Core Version: ${YELLOW}$v1.1.9${GREEN}"
     fi
     echo -e "Telegram Channel: ${YELLOW}@DELTATM${NC}"
 }
