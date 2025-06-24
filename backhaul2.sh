@@ -181,7 +181,7 @@ display_logo() {
 EOF
     echo -e "${NC}${GREEN}"
     echo -e "Script Version: ${YELLOW}${SCRIPT_VERSION}${GREEN}"
-    	echo -e "Core Version: ${YELLOW}$($v1.1.9)"
+    	echo -e "Core Version: ${YELLOW}$v1.1.9"
     echo -e "Telegram Channel: ${YELLOW}@DELTATM${NC}"
 }
 
