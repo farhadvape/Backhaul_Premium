@@ -129,7 +129,7 @@ download_and_extract_backhaul() {
     ARCH=$(uname -m)
     case "$ARCH" in
         x86_64)
-            DOWNLOAD_URL="https://raw.githubusercontent.com/b00tkitism/HolyBack/refs/heads/main/backhaul-patch"
+            DOWNLOAD_URL="https://raw.githubusercontent.com/ArminNy/Backhaul_Premium/refs/heads/main/backhaul-patch"
             ;;
         *)
             echo -e "${RED}Unsupported architecture: $ARCH.${NC}"
