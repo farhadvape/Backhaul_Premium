@@ -6,14 +6,14 @@ v1.0.2
 
 Run the following script on your server (ubuntu supported):
 ```
-bash <(curl -Ls --ipv4 https://raw.githubusercontent.com/ArminNy/Backhaul_Premium/refs/heads/main/backhaul.sh)
+bash <(curl -Ls --ipv4 https://raw.githubusercontent.com/farhadvape/Backhaul_Premium/refs/heads/main/backhaul.sh)
 ```
 
 v1.1.9
 
 Run the following script on your server (ubuntu supported):
 ```
-bash <(curl -Ls --ipv4 https://raw.githubusercontent.com/ArminNy/Backhaul_Premium/refs/heads/main/backhaul2.sh)
+bash <(curl -Ls --ipv4 https://raw.githubusercontent.com/farhadvape/Backhaul_Premium/refs/heads/main/backhaul2.sh)
 ```
 
 
