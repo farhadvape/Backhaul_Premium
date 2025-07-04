@@ -129,7 +129,7 @@ download_and_extract_backhaul() {
     ARCH=$(uname -m)
     case "$ARCH" in
         x86_64)
-            DOWNLOAD_URL="https://raw.githubusercontent.com/ArminNy/Backhaul_Premium/refs/heads/main/backhaul-patch"
+            DOWNLOAD_URL="https://raw.githubusercontent.com/farhadvape/Backhaul_Premium/refs/heads/main/backhaul-patch"
             ;;
         *)
             echo -e "${RED}Unsupported architecture: $ARCH.${NC}"
@@ -182,7 +182,7 @@ EOF
     echo -e "${NC}${GREEN}"
     echo -e "Script Version: ${YELLOW}${SCRIPT_VERSION}${GREEN}"
     	echo -e "Core Version: ${YELLOW}v1.1.9${NC}"
-    echo -e "Telegram Channel: ${YELLOW}@DELTATM${NC}"
+    echo -e "Telegram id: ${YELLOW}@farhadvape${NC}"
 }
 
 # Function to display server location and IP
@@ -1795,7 +1795,7 @@ update_script(){
 # Define the destination path
 DEST_DIR="/usr/bin/"
 BACKHAUL_SCRIPT="backhaul"
-SCRIPT_URL="https://raw.githubusercontent.com/ArminNy/Backhaul_Premium/refs/heads/main/backhaul2.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/farhadvape/Backhaul_Premium/refs/heads/main/backhaul2.sh"
 
 echo
 # Check if backhaul.sh exists in /bin/bash
